@@ -1,15 +1,16 @@
 <template>
-  <div id="app">
-    <router-view />
+  <div>
+    <el-button>role</el-button>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'App',
-  created() {
+  data() {
+    return {
+
+    }
   }
 }
 </script>
-

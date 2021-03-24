@@ -1,15 +1,14 @@
 <template>
-  <div id="app">
-    <router-view />
+  <div>
+    index
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-  created() {
+  data() {
+    return {
+    }
   }
 }
 </script>
-
