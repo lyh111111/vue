@@ -2,7 +2,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Index from '../views/index/index.vue'
+import MainIndex from '@/components/MainIndex.vue'
 import Home from '../views/home.vue'
 import authority from './models/authority'
 
@@ -56,7 +56,7 @@ export const constantRoutes = [
     children: [{
       path: '/',
       name: 'Index',
-      component: Index,
+      component: MainIndex,
       meta: {
         title: '工作桌面',
         defaultTitle: '工作桌面',

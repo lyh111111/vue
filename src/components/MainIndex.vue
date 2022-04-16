@@ -1,16 +1,18 @@
 <template>
   <div>
-    <el-button>role</el-button>
+      MainIndex
   </div>
 </template>
 
 <script>
-
 export default {
   data() {
     return {
-
     }
+  },
+  watch: {
+  },
+  methods: {
   }
 }
 </script>

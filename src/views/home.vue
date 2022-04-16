@@ -1,14 +1,21 @@
 <template>
-  <div>
-    <div class="head-info">
-      <HeadTop />
-    </div>
-    <div class="left-menu">
-      <MenuList />
-    </div>
-    <div class="right-main">
-      <router-view></router-view>
-    </div>
+    <div>
+        <el-container>
+            <!-- 顶部菜单 -->
+            <el-header>
+              <HeadTop />
+            </el-header>
+            <el-container>
+              <!-- 左边栏 -->
+              <el-aside width="400px">
+                <MenuList />
+              </el-aside>
+              <!-- 内容 -->
+              <el-main>
+                <router-view></router-view>
+              </el-main>
+          </el-container>
+      </el-container>
   </div>
 </template>
 
@@ -27,3 +34,22 @@ export default {
   }
 }
 </script>
+<style>
+.el-header {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+.el-aside {
+    color: #333;
+    text-align: center;
+    height: calc(100vh - 60px);
+}
+
+.el-main {
+    color: #333;
+    text-align: center;
+    height: calc(100vh - 60px);
+}
+</style>

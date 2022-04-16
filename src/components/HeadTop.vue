@@ -1,12 +1,6 @@
 <template>
-  <div class="header">
-    <div class="logo">
-      <span class="logo-txt">新明</span>
-      <span class="logo-txt-r">&reg;	</span>
-    </div>
-
-    <div class="right-state">
-    </div>
+  <div>
+    top
   </div>
 </template>
 <script>
@@ -19,5 +13,5 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 </style>
